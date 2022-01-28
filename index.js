@@ -2,7 +2,7 @@ let pageHeader = document.querySelector("#page-header");
 pageHeader.style.backgroundColor = "black";
 pageHeader.style.color = "white";
 
-let dogNames = document.querySelector(".dog-name")
+let dogNames = document.querySelectorAll(".dog-name")
 for(let i = 0; i < dogNames.length; i++) {
     dogNames[i].style.color = "red";
 }
